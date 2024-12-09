@@ -44,7 +44,7 @@ public class InputActivationManager : MonoBehaviour
         counter.IntValue--;
         if (counter.IntValue == 0)
         {
-            
+            //shit 
         }
     }
 }
