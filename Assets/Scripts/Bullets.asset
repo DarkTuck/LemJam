@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c486a1eb6e989e541b68b36935660231, type: 3}
   m_Name: Bullets
   m_EditorClassIdentifier: 
-  bulletSprite: {fileID: 0}
-  bulletDamage: 0
-  bulletSpeed: 0
+  bulletSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  bulletDamage: 5
+  bulletSpeed: 10
