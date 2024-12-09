@@ -33,6 +33,6 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        player.transform.Translate(new Vector3(movement.ReadValue<Vector2>().x * speed, movement.ReadValue<Vector2>().y * speed, 0));
+        player.transform.Translate(new Vector3(movement.ReadValue<Vector2>().x * speed,0, 0));
     }
 }
