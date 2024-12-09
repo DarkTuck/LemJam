@@ -6,7 +6,7 @@ public class WeponScript : MonoBehaviour
 {
     [SerializeField] Bullets[] bullets;
     Actions actions;
-    private int currentBullet;
+    public int currentBullet;
 
     void Awake()
     {
