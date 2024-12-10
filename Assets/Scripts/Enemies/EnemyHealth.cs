@@ -9,6 +9,7 @@ public class EnemyHealth : MonoBehaviour, IDamagable
         health -= damage;
         if (health <= 0)
         {
+            EnemyManager.instance.EnemiesKilled(gameObject);
             Destroy(gameObject);
         }
     }
