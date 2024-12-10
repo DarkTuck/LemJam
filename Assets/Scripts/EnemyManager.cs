@@ -1,11 +1,21 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
+    public static EnemyManager instance;
     [SerializeField] private GameObject enemyMelee, enemyGun;
     private List<GameObject> enemies;
     [SerializeField]SceneLoader sceneLoader;
+
+    void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        }
+    }
     public void SpawnEnemies(int meleesToSpawn, int guns)
     {
         for (int i = 0; i < meleesToSpawn; i++)
