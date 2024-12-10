@@ -8,6 +8,10 @@ public class Movement : MonoBehaviour
     InputAction movement;
     Transform player;
 
+    [SerializeField] private Transform visualsTransform;
+
+    private Vector2 inputVector;
+
     void Awake()
     {
         actions = new Actions();
@@ -33,6 +37,26 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        player.transform.Translate(new Vector3(movement.ReadValue<Vector2>().x * speed,0, 0));
+        inputVector = movement.ReadValue<Vector2>();
+
+		player.transform.Translate(new Vector3(inputVector.x * speed, 0, 0));
+
+        if (inputVector.x > 0f)
+        {
+            visualsTransform.localScale = new Vector3(1f, 1f, 1f);
+        }
+        else if (inputVector.x < 0f)
+        {
+			visualsTransform.localScale = new Vector3(-1f, 1f, 1f);
+
+		}
+	}
+
+    public Vector2 InputVector
+    {
+        get
+        {
+            return inputVector;
+        }
     }
 }
