@@ -26,7 +26,13 @@ public class TextEvent : ScriptableObject
 
     private void ValueChanged()
     {
-        if (valueChangeDelegate != null)
+        if (debugChange)
+        {
+            Debug.Log("TextEvent SO ValueChanged() - object name = " + name + ", textValue = " + textValue);
+		}
+
+
+		if (valueChangeDelegate != null)
         {
             valueChangeDelegate(debugChange);
         }

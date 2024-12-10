@@ -20,7 +20,7 @@ public class TextEventUse : MonoBehaviour
     private void AttachedTextEventChanged(bool isDebug)
     {
         //Debug.Log("IntEvent new value = " + attachedIntEvent.IntValue.ToString());
-        attachedEventText.enabled = true;
+        attachedEventText.gameObject.SetActive(true);
         attachedEventText.text = attachedTextEvent.TextValue;
         StartCoroutine(HideText());
         //do stuff
@@ -29,7 +29,7 @@ public class TextEventUse : MonoBehaviour
     IEnumerator HideText()
     {
         yield return new WaitForSeconds(activeTime);
-        attachedEventText.enabled = false;
+        attachedEventText.gameObject.SetActive(false);
     }
     
 }
