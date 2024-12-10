@@ -21,7 +21,7 @@ public class TextEventUse : MonoBehaviour
     {
         //Debug.Log("IntEvent new value = " + attachedIntEvent.IntValue.ToString());
         attachedEventText.enabled = true;
-        attachedEventText.text = attachedTextEvent.textValue;
+        attachedEventText.text = attachedTextEvent.TextValue;
         StartCoroutine(HideText());
         //do stuff
     }

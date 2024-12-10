@@ -51,7 +51,7 @@ public class InputActivationManager : MonoBehaviour
             player.GetComponent<WeponScript>().enabled = true;
             actions.Player.Attack.performed -= ActivateAttack;
             actions.Player.Defend.performed += ActivadeDefend;
-            textEvent.textValue = unlockWeponText;
+            textEvent.TextValue = unlockWeponText;
             counter.IntValue = cliksToUnlock;
         }
     }
@@ -63,7 +63,7 @@ public class InputActivationManager : MonoBehaviour
         {
             player.GetComponent<Shield>().enabled = true;
             actions.Player.Defend.performed -= ActivadeDefend;
-            textEvent.textValue = unlockShieldText;
+            textEvent.TextValue = unlockShieldText;
             counter.IntValue=attachedIntEvent.max/2;
         }
     }
@@ -75,7 +75,7 @@ public class InputActivationManager : MonoBehaviour
             if (counter.IntValue == 0)
             {
                 player.GetComponent<WeponScript>().currentBullet=1;
-                textEvent.textValue = unlockRocketText;
+                textEvent.TextValue = unlockRocketText;
             }
         }
     }

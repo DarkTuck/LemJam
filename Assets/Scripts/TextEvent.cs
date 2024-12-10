@@ -3,14 +3,14 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "TextEvent", menuName = "EventVariables/TextEvent")]
 public class TextEvent : ScriptableObject
 {
-    private string text;
+    private string textValue;
 
     public delegate void ValueChangeDelegate(bool isDebug);
     ValueChangeDelegate valueChangeDelegate;
 
     [SerializeField] private bool debugChange;
 
-    public string textValue
+    public string TextValue
     {
         set
         {
