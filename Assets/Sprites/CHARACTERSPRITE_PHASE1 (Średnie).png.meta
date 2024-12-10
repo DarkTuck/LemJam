@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "CHARACTERSPRITE_PHASE1 (\u015Arednie)_0": 8708134001476627252
+      "CHARACTERSPRITE_PHASE1 (\u015Arednie)_1": -2762932692839916948
+      "CHARACTERSPRITE_PHASE1 (\u015Arednie)_2": -7946906374806729910
+      "CHARACTERSPRITE_PHASE1 (\u015Arednie)_3": 3697360522419844582
+      "CHARACTERSPRITE_PHASE1 (\u015Arednie)_4": 1150790492106034096
+      "CHARACTERSPRITE_PHASE1 (\u015Arednie)_5": 6544940254876610961
+      "CHARACTERSPRITE_PHASE1 (\u015Arednie)_6": -2930409728140602567
+      "CHARACTERSPRITE_PHASE1 (\u015Arednie)_7": -1620939952566689790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
