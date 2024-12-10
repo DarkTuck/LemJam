@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using NaughtyAttributes;
 using UnityEngine.InputSystem;
@@ -20,21 +21,31 @@ public class InputActivationManager : MonoBehaviour
     {
         actions.Enable();
         actions.Player.Attack.performed += ActivateAttack;
-        counter.IntValue = cliksToUnlock;
         attachedIntEvent.RegisterDelegate(AttachedIntEventChanged);
+        player.GetComponent<WeponScript>().enabled = false;
+        player.GetComponent<Shield>().enabled = false;
     }
 
     void OnDisable()
     {
         actions.Disable();
         attachedIntEvent.UnregisterDelegate(AttachedIntEventChanged);
+        actions.Player.Attack.performed -= ActivateAttack;
+        actions.Player.Defend.performed -= ActivadeDefend;
     }
+
+    private void Start()
+    {
+        counter.IntValue = cliksToUnlock;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void ActivateAttack(InputAction.CallbackContext context)
     {
         counter.IntValue--;
         if (counter.IntValue == 0)
         {
+            Debug.Log("Zdrowe");
             player.GetComponent<WeponScript>().enabled = true;
             actions.Player.Attack.performed -= ActivateAttack;
             actions.Player.Defend.performed += ActivadeDefend;

@@ -8,11 +8,22 @@ public class SetTarget : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        transform.DOMove(PlayerSingleton._player.transform.position, speed);
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        //rotate to look at the player
+        transform.LookAt(PlayerSingleton._player.position);
+        transform.Rotate(new Vector3(0,-90,0),Space.Self);//correcting the original rotation
+		
+		
+        //move towards the player
+        if (Vector3.Distance(transform.position, PlayerSingleton._player.position) > 1f)
+        {
+            //move if distance from target is greater than 1
+            transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
+        }
     }
 }
