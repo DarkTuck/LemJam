@@ -8,8 +8,10 @@ public class InputActivationManager : MonoBehaviour
     Actions actions;
     [SerializeField] int cliksToUnlock;
     [SerializeField] GameObject player;
+    [SerializeField][Foldout("Teksty")] string unlockWeponText,unlockShieldText,unlockRocketText;
     [SerializeField][Foldout("jak coś podpięte to nie tykać")][Label("liczniczek")]IntEvent counter;
     [SerializeField][Foldout("jak coś podpięte to nie tykać")][Label("Zdrowe")]HealthArmorScriptableObject attachedIntEvent;
+    [SerializeField][Foldout("jak coś podpięte to nie tykać")][Label("wypiszTextUI")]TextEvent textEvent;
     bool canUnlockGranade = false;
 
     void Awake()
@@ -49,6 +51,7 @@ public class InputActivationManager : MonoBehaviour
             player.GetComponent<WeponScript>().enabled = true;
             actions.Player.Attack.performed -= ActivateAttack;
             actions.Player.Defend.performed += ActivadeDefend;
+            textEvent.textValue = unlockWeponText;
             counter.IntValue = cliksToUnlock;
         }
     }
@@ -60,6 +63,7 @@ public class InputActivationManager : MonoBehaviour
         {
             player.GetComponent<Shield>().enabled = true;
             actions.Player.Defend.performed -= ActivadeDefend;
+            textEvent.textValue = unlockShieldText;
             counter.IntValue=attachedIntEvent.max/2;
         }
     }
@@ -71,6 +75,7 @@ public class InputActivationManager : MonoBehaviour
             if (counter.IntValue == 0)
             {
                 player.GetComponent<WeponScript>().currentBullet=1;
+                textEvent.textValue = unlockRocketText;
             }
         }
     }
