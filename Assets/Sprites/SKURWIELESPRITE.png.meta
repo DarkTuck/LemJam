@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 97e2fa945bc85124293e0d94e0ff3d47
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6637351011811661328
+    second: SKURWIELESPRITE_0
+  - first:
+      213: 1417726852319408257
+    second: SKURWIELESPRITE_1
+  - first:
+      213: 5302456862587588380
+    second: SKURWIELESPRITE_2
+  - first:
+      213: 4145906328840690717
+    second: SKURWIELESPRITE_3
+  - first:
+      213: -6629648345980794879
+    second: SKURWIELESPRITE_4
+  - first:
+      213: 3034624705213274738
+    second: SKURWIELESPRITE_5
+  - first:
+      213: -7488354273109180535
+    second: SKURWIELESPRITE_6
+  - first:
+      213: 8406050500510339495
+    second: SKURWIELESPRITE_7
+  - first:
+      213: 4865439666869209842
+    second: SKURWIELESPRITE_8
+  - first:
+      213: 3177915774011171301
+    second: SKURWIELESPRITE_9
+  - first:
+      213: -4616776964518258023
+    second: SKURWIELESPRITE_10
+  - first:
+      213: -9137229645383613321
+    second: SKURWIELESPRITE_11
+  - first:
+      213: 1594134407801592575
+    second: SKURWIELESPRITE_12
+  - first:
+      213: -6789649394014101184
+    second: SKURWIELESPRITE_13
+  - first:
+      213: 4259109138499305564
+    second: SKURWIELESPRITE_14
+  - first:
+      213: -8573663419846568524
+    second: SKURWIELESPRITE_15
+  - first:
+      213: -4604064884428332232
+    second: SKURWIELESPRITE_16
+  - first:
+      213: 2293528458066963164
+    second: SKURWIELESPRITE_17
+  - first:
+      213: -93123514785450738
+    second: SKURWIELESPRITE_18
+  - first:
+      213: 5136134345133037270
+    second: SKURWIELESPRITE_19
+  - first:
+      213: -3300317306087120898
+    second: SKURWIELESPRITE_20
+  - first:
+      213: 8811607889163719718
+    second: SKURWIELESPRITE_21
+  - first:
+      213: 9087600473218601650
+    second: SKURWIELESPRITE_22
+  - first:
+      213: 5650033400511359650
+    second: SKURWIELESPRITE_23
+  - first:
+      213: -3965109717320401760
+    second: SKURWIELESPRITE_24
+  - first:
+      213: -7990213873996422495
+    second: SKURWIELESPRITE_25
+  - first:
+      213: -4499176767635210861
+    second: SKURWIELESPRITE_26
+  - first:
+      213: 231107020828742496
+    second: SKURWIELESPRITE_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SKURWIELESPRITE_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 586
+        width: 241
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9e263cb6463e3a0800000000000000
+      internalID: -6637351011811661328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKURWIELESPRITE_1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 579
+        width: 214
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180f70d8f07cca310800000000000000
+      internalID: 1417726852319408257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKURWIELESPRITE_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 567
+        width: 184
+        height: 480
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f8d534c6c169940800000000000000
+      internalID: 5302456862587588380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKURWIELESPRITE_3
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 561
+        width: 184
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cd79217d7398930800000000000000
+      internalID: 4145906328840690717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKURWIELESPRITE_5
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 558
+        width: 172
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a9cdc57172d1a20800000000000000
+      internalID: 3034624705213274738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKURWIELESPRITE_6
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 555
+        width: 183
+        height: 489
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f7c0fa675041890800000000000000
+      internalID: -7488354273109180535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKURWIELESPRITE_7
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 562
+        width: 246
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1d9ee946a48a470800000000000000
+      internalID: 8406050500510339495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 750e9576548def34183ef4ea53f95dd9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SKURWIELESPRITE_0: -6637351011811661328
+      SKURWIELESPRITE_1: 1417726852319408257
+      SKURWIELESPRITE_2: 5302456862587588380
+      SKURWIELESPRITE_3: 4145906328840690717
+      SKURWIELESPRITE_5: 3034624705213274738
+      SKURWIELESPRITE_6: -7488354273109180535
+      SKURWIELESPRITE_7: 8406050500510339495
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
